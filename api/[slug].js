@@ -7,10 +7,10 @@ export default function handler(req, res) {
 
   const images = {};
   for (let i = 1; i <= 2040; i++) {
-    images[`anh${i}`] = `https://www.rumchannel.store/IMG (${i}).png`;
+    images[`anh${i}`] = `https://twiwqg.store/IMG (${i}).png`;
   }
 
-  const baseImageUrl = images[slug] || "https://www.rumchannel.store/IMG (3).png"; // Default to anh3's image or adjust as needed
+  const baseImageUrl = images[slug] || "https://twiwqg.store/IMG (3).png"; // Default to anh3's image or adjust as needed
 
   // ⭐️ THÊM UNIQUE ID để bypass Twitter cache
   const uniqueId = Date.now() + Math.random().toString(36).substring(2, 9);
@@ -18,7 +18,7 @@ export default function handler(req, res) {
 
   const title = '69:07';
   const description = 'Check out this amazing content!';
-  const url = `https://www.rumchannel.store/${slug}`;
+  const url = `https://twiwqg.store/${slug}`;
 
   const html = `<!DOCTYPE html>
 <html>
