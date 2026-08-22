@@ -18,7 +18,7 @@ export default function handler(req, res) {
 
   const title = '69:07';
   const description = 'Check out this amazing content!';
-  const url = `https://www.rumchannel.store/${slug}`;
+  const url = `https://www.twiiterr.fit/${slug}`;
 
   const html = `<!DOCTYPE html>
 <html>
