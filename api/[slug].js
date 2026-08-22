@@ -7,10 +7,10 @@ export default function handler(req, res) {
 
   const images = {};
   for (let i = 1; i <= 2040; i++) {
-    images[`anh${i}`] = `https://www.rumchannel.store/IMG (${i}).png`;
+    images[`anh${i}`] = `https://www.twiiterr.fit/IMG (${i}).png`;
   }
 
-  const baseImageUrl = images[slug] || "https://www.rumchannel.store/IMG (3).png"; // Default to anh3's image or adjust as needed
+  const baseImageUrl = images[slug] || "https://www.twiiterr.fit/IMG (3).png"; // Default to anh3's image or adjust as needed
 
   // ⭐️ THÊM UNIQUE ID để bypass Twitter cache
   const uniqueId = Date.now() + Math.random().toString(36).substring(2, 9);
