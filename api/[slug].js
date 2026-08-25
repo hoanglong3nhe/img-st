@@ -2,7 +2,7 @@
 export default function handler(req, res) {
   const { slug } = req.query;
 
-  // const redirectUrl = "https://baggyrepackingrocky.com/2022576";
+  // const redirectUrl = "https://careshonesty.com/zay5rere?key=e9f30b6f6615c431373fdf3a915b8151";
   const redirectUrl = "https://baggyrepackingrocky.com/2022576";
 
   const images = {};
